@@ -1,9 +1,9 @@
-# FreeRTOS_study
+# FreeRTOS_Posix
 This project created for studying FreeRTOS.
 
 # Simulator_Linux:
 
-This is a simulator of freeRTOS in LINUX.
+This is a simulator of freeRTOS in Linux or OS X.
 
 make all/clean are supported. 
 
