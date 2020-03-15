@@ -19,7 +19,7 @@ all:simulator_linux.bin
 
 simulator_linux.bin: $(OBJS)
 	@echo 'Building target: $@'
-	gcc -pthread -lrt -o"simulator_linux.bin" $(OBJS) $(LIBS)
+	gcc -pthread -o"simulator_linux.bin" $(OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
